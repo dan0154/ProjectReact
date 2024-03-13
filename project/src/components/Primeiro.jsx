@@ -1,5 +1,5 @@
-export default function(){
-    return <h1>Primeiro</h1>
-}
+export default() => (
+    <h1>Prime</h1>
+)
 
 //componente sempre começando com letra maiúscula

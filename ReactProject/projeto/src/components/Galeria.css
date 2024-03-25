@@ -1,0 +1,16 @@
+
+.Galeria{
+    display: flex;
+    flex-wrap: wrap;
+    width:100%;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.Galeria img {
+    max-width: 400px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 5px;
+}

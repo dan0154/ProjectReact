@@ -2,7 +2,8 @@ import './App.css'
 import Header from './components/Header'
 import Lulus from './components/Lulus'
 import Sobre from './components/Sobre'
-import Galeria from './components/Galeria'
+import Galeria2 from './components/Galeria2'
+import Infos from './components/Infos'
 
 function App() {
 
@@ -11,7 +12,9 @@ function App() {
       <Header />
       <Lulus />
       <Sobre />
-      <Galeria />
+      <Galeria2 />
+      <Infos nome={"Daniel"} idade={"17"} escola={"Sesi"}></Infos>
+      <Infos nome={"Gabriel"} idade={"17"} escola={"Sesi"}></Infos>
     </div>
   )
 }

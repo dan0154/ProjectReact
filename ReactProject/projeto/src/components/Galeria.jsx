@@ -4,7 +4,7 @@ import Titulo from "./Titulo"
 export default function Galeria2(){
     return(
         <div className="Galeria2">
-            <Titulo titulo={"Galeria de gatinhos"}></Titulo>
+            <Titulo titulo={"Galeria de Lulus"}></Titulo>
             <div className="ItensGaleria">
                 <Imagem Imagem={"150912426359f368a78573a_1509124263_4x3_md.jpg"} alt={"x"}></Imagem>
                 <Imagem Imagem={"lulu-capa.jpg"} alt={"x"}></Imagem>

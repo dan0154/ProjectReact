@@ -17,7 +17,7 @@ function Home() {
     <div>
       <Header />
       <Lulus />
-      <button onClick={handleClick}>Saber mais</button>
+      <button onClick={handleClick} className='botao'>Saber mais</button>
       <Galeria2 />
       <Infos nome={"Daniel"} idade={"17"} escola={"Sesi"}></Infos>
       <Infos nome={"Gabriel"} idade={"17"} escola={"Sesi"}></Infos>

@@ -23,4 +23,4 @@ Framweworks: o mais conhecido é o tailwind (npm install -D tailwind)
 Responsividade:
     -Sistema capaz de se adaptar a diferentes tamanhos de tela e dispositivos
     -Media query: permite qua renderização se adapte a condições como tamanhos de tela
-    -Flexbox: modelo de layout CSS que permite criar layouts flexíveis (começa o display: flex)
+    -Flexbox: modelo de layout CSS que permite criar layouts flexíveis (começa o display: flex).

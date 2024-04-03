@@ -1,0 +1,22 @@
+CONFIGURANDO
+
+    1 - $npm create vite@latest
+
+    2 - Age conforme as instruções no console: nome, framework e tipo de linguagem
+
+    3 - $npm install
+
+    4 - $npm run dev
+
+USO
+
+    1 - Imagens sempre vão na pasta public (assim, na hora de fazer referência à imagem, é só colocar seu nome)
+
+    2 - index.html não mexe muito, só pro básico de HTML como nome da guia e linguagem (bom colocar pt-BR)
+
+    3 - Componentes são partes que se recortadas sozinhas do projeto podem ser colocadas em outros projetos sem maiores problemas
+
+    4 - Todos os arquivos .jsx (exceto o main, que já é criado automaticamente) devem começar com letra maiúscula
+
+
+!!Lembre sempre de estar no diretório em que o framework está configurado!!

@@ -1,0 +1,11 @@
+.Sobre p{
+    width: 33%;
+    text-align: justify;
+}
+
+.Sobre{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,84 @@
+/* Para "reiniciar" o CSS */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:normal;
+    font-style: normal;
+}
+
+/* Fim o reinício do CSS */
+
+
+.container{
+    padding: 20px 60px; /* 20 na verical, 60 na horizontal */
+    display: flex;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.two-column{
+    width: 50vw; /* É 50% da view width (vw), pois se colocar 50% ele vai para 50% da div */
+    padding: 20px;
+}
+
+.header{
+    background-color: darkseagreen;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header img{
+    width: 40px;
+
+}
+
+.header nav {
+    display: flex;
+    gap: 40px;
+}
+
+.header a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+
+li{
+    list-style: none;
+}
+
+.header a:hover{ /* Ao passar o móvel em cima de um link (tag a) na classe header, executa essas ações*/
+    font-size: 20px;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 600px) { /* Se a tela for menor que 600, usa essas configurações */
+    .container{
+        padding: 20px 60px; /* 20 na verical, 60 na horizontal */
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header{
+        gap: 30px;
+    }
+
+    .header img {
+        filter:invert();
+    }
+}
+
+/* Início da estilização do banner */
+
+.banner{
+    background-color: #7ed485;
+    color: #0e2710;
+}

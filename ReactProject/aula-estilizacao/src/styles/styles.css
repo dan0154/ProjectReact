@@ -13,6 +13,7 @@
 /* Fim o reinício do CSS */
 
 
+/* Estilização da header */
 .container{
     padding: 20px 60px; /* 20 na verical, 60 na horizontal */
     display: flex;
@@ -30,7 +31,7 @@
 }
 
 .header{
-    background-color: darkseagreen;
+    background-color: #7ed485;
     justify-content: space-between;
     align-items: center;
 }
@@ -60,6 +61,58 @@ li{
     font-weight: bold;
 }
 
+/* Fim da estilização do header */
+
+
+/* Início da estilização do banner */
+
+.banner{
+    background-color: white;
+    color: #0e2710;
+}
+
+.banner img{
+    height: 60vh; /* View height, 60% da altura visível */
+    width: fit-content;
+}
+
+.banner p{
+    font-size: 25px;
+    margin-bottom: 30px ;
+}
+
+/* Botão */
+
+.button{
+    background-color: #7ed485;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    width: 200px;
+    height: 40px;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+/* text-big */
+
+.text-big{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/* Fim da estilização do banner */
+
+/* Início da estilização do rodapé */
+
+.footer img{
+    width: 80px;
+}
+
+/* Fim da estilização do rodapé */
+
+/* Ajuste para telas pequenas */
 @media screen and (max-width: 600px) { /* Se a tela for menor que 600, usa essas configurações */
     .container{
         padding: 20px 60px; /* 20 na verical, 60 na horizontal */
@@ -74,11 +127,19 @@ li{
     .header img {
         filter:invert();
     }
+
+    .banner img {
+        width: 80vw;
+        height: fit-content;
+    }
+
+    .two-column{
+        width: 50vw; /* É 50% da view width (vw), pois se colocar 50% ele vai para 50% da div */
+    }
+
+    .banner{
+        height: 100%;
+    }
 }
 
-/* Início da estilização do banner */
-
-.banner{
-    background-color: #7ed485;
-    color: #0e2710;
-}
+/* Fim do ajuste para telas pequenas */

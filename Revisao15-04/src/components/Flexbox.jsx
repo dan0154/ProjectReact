@@ -1,8 +1,9 @@
 import React from "react";
+import "../styles/styles.css"
 
 export default function Flexbox(){
     return(
-        <div>
+        <section>
             <div>
                 <p>Item 1</p>
             </div>
@@ -12,6 +13,6 @@ export default function Flexbox(){
             <div>
                 <p>Item 3</p>
             </div>
-        </div>
+        </section>
     )
 }

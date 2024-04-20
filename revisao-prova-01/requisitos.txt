@@ -1,0 +1,6 @@
+Cabeçalho
+Galeria (com 12 imagens organizadas em grade 4x3 com um tamanho padrão)
+Lista de itens com dados estáticos sendo exibidos na tela principal
+Rodapé
+
+Layout que se adapte em telas menores

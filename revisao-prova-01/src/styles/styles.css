@@ -23,8 +23,13 @@
     
 }
 
-.Footer p{
-    padding: 0;
+.content{
+    padding-bottom: 2.5rem;
+}
+
+.Footer{
+    height: 2.5rem;
+    width: 100%;
     margin: 0;
     display: flex;
     position:absolute;
@@ -50,17 +55,49 @@
     align-items: flex-start;
 }
 
+.ListItems li{
+    list-style-type:square;
+}
+
+.list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    bottom: 0px;
+    left: 46vw;
+}
+
 @media screen and (max-width: 600px) {
+    html, body {
+        height: 100%;
+    }
+
     .Image img{
         width: 350px;
         height: 180px;
+        margin-left: 0px;
+        margin-bottom: 5px ;
+        padding: 0;
     }
     .Gallery{
-        width: 400px;
+        width: 390px;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: center;
+        position: absolute;
+        top:1250px;
     }    
+    .Footer p{
+        padding: 0;
+        margin: 0;
+        display: flex;
+        position:fixed;
+        bottom: 0px;
+        width: 100vw;
+        background-color: white;
+
+    }
 
 }

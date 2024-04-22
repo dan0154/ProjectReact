@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Courier New', Courier, monospace;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid #c9c9c9;
+}
+  
+
+/* Estilização da Header */
+.header{
+    background-color: gray;
+}
+
+.header img{
+    height: 100px;
+    margin-left: 50px;
+}
+
+/* Fim da estilização da Header */
+
+/* Estilização das Infos */
+.infos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+
+.infosText{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.infosImage img{
+    height: 250px;
+    border-radius: 25px;
+}
+
+/* Fim da estilização das Infos */
+
+/* Estilização da galeria */
+
+.galeria{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 1000px;
+}
+
+.galeriaContainer{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.galeria img{
+    height: 300px;
+    width: 300px;
+    margin: 5px;
+}
+
+/* Fim da estilização da galeria */
+
+/* Estilização do Footer */
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: fixed;
+    bottom: 0px;
+    width: 100vw;
+    background-color: black;
+    height: 5vh;
+}
+
+.footer p{
+    color: white;
+    margin-left: 25px;
+}
+
+/* Estilização para uma tela menor que 600px de largura */
+@media screen and (max-width: 600px) {
+    /* Estilização das Infos */
+    .infos{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .infosTitle hr{
+        width: 50%;
+        margin-left: 25%;
+    }
+    
+    .infosText{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .infosImage img{
+        height: 175px;
+        border-radius: 25px;
+    }
+    /* Fim da estilização das Infos */
+
+    /* Estilização da Header */
+
+    .header img{
+        height: 75px;
+        margin-left: 30px;
+    }
+    /* Fim da estilização da Header */
+
+    .galeria{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 1000px;
+    }
+    
+    .galeriaContainer{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 50px;
+    }
+    .galeria img{
+        height: 300px;
+        width: 300px;
+        margin: 5px;
+    }
+    
+    /* Fim da estilização da galeria */
+}
+/* Fim da estilização para uma tela menor que 600px de largura */

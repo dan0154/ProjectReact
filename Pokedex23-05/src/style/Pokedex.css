@@ -1,0 +1,13 @@
+.pokedex{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 70vh;
+    width: 25vw;
+    background-color: wheat;
+    border-radius: 10px;
+}
+
+.pokedex img{
+    height: 20%;
+}

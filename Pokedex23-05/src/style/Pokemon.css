@@ -3,3 +3,30 @@
     flex-direction: column;
     justify-content: center;
 }
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.button1{
+    color: wheat;
+    background-color: #33281F;
+    border: none;
+    padding: 3px;
+    border-radius: 2px;
+}
+
+.button2{
+    color: wheat;
+    background-color: #33281F;
+    border: none;
+    padding: 3px;
+    border-radius: 2px;
+}
+
+.pokemon p{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-transform: uppercase;
+}

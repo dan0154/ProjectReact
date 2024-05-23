@@ -38,9 +38,9 @@ export default function Pokemon(){
                 <div className="pokemon">
                     <p>{pokemon.name}</p>
                     <img src={pokemon.sprites.front_default}></img>
-                    <div>
-                        <button onClick={previousPokemon}>Previous</button>
-                        <button onClick={nextPokemon}>Next</button>
+                    <div className="buttons">
+                        <button className="button1" onClick={previousPokemon}>Previous</button>
+                        <button className="button2" onClick={nextPokemon}>Next</button>
                     </div>
 
                 </div>

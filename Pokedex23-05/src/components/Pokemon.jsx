@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import "../style/Pokemon.css"
+
 export default function Pokemon(){
     const [ id, setId ] = useState(1) //iniciando id com valor 1
     const [ pokemon, setPokemon ] = useState(null) //iniciando dado pokemon com valor nulo

@@ -1,0 +1,4 @@
+Bibliotecas
+
+framer-motion: ajuda a fazer transição (https://www.framer.com/motion/)
+styled-components: 

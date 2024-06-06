@@ -8,8 +8,14 @@
     border-radius: 10px;
 }
 
-.pokedex img{
+.center img{
     width: 100%;
     height: 30%;
     margin-top: 5%;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
